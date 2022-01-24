@@ -1,0 +1,19 @@
+Package: montyhall
+Title: Simulate the Monty Hall Problem
+Version: 0.0.0.9000
+Authors@R:
+    person(
+      given = "Jacob",
+      family = "Young",
+      email = "jacob.young.1@asu.edu",
+      role = c("aut", "cre"),
+      )
+Description: This package simulates the Monty Hall Problem from the classic television gameshow "Let's Make a Deal". There are 3 doors, 1 of which has a prize and 2 of which are a goat. The contestant makes a selection, then one of the doors that is a goat is opened. Then the contestant is asked if they want to change their selection. Either they can stay or switch. Then, after this decision they open the door of the contestants selection.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends:
+  dplyr
